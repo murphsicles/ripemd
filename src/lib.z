@@ -1,0 +1,5 @@
+/// RIPEMD-160 hash function for Zeta
+/// Self-contained implementation (no external dependencies)
+/// Based on RIPEMD-160 specification by Hans Dobbertin, Antoon Bosselaers, Bart Preneel
+
+pub use ripemd160::{Ripemd160, ripemd160};
